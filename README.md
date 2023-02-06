@@ -1,6 +1,6 @@
 # News_NLP
 
-## Section 1: To NewsApp.ipynb demonstrates how to use `news-nlp` pacakge
+## Section 1:   NewsApp.ipynb demonstrates how to use `news-nlp` pacakge
 
 1. download this dataset and save it under`./News_NLP/data`
 
