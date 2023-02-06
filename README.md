@@ -1,13 +1,14 @@
 # News_NLP
 
-download this dataset and save it under`./News_NLP/data`
+1. download this dataset and save it under`./News_NLP/data`
 
 `https://drive.google.com/file/d/1oAxSyq1T9ZEpaoeBzzfzsXelYph-7IX6/view?usp=share_link`
 
-Suggect to run it in conda virtual environment named news_nlp
+2. Suggect to run it in conda virtual environment named news_nlp
 `conda create -n news_nlp python=3.10 -y`
 `conda activate news_nlp`
 
+3. install dependcies 
 `pip install scikit-learn`
 `pip install mediacloud-cliff`
 `pip install ipywidgets`
@@ -15,11 +16,11 @@ Suggect to run it in conda virtual environment named news_nlp
 install scaCy en_core_web_lg
 `python -m spacy download en_core_web_lg`
 
-1. install cliff docker image to geoloate text data in terms of lan, lon, popualtion, location name, location type etc
+install cliff docker image to geoloate text data in terms of lan, lon, popualtion, location name, location type etc
    `docker pull rahulbot/cliff-clavin:2.6.1`
    `docker run -p 8080:8080 -m 8G -d rahulbot/cliff-clavin:2.6.1`
    
-2. install News_NLP `pip install news-nlp`
+4. install News_NLP `pip install news-nlp`
 
-3. `TestNoteBook.ipynb` demonstrates how to use News_NLP pacakge
+5. `NewsApp.ipynb` demonstrates how to use `news-nlp` pacakge
 
