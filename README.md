@@ -1,5 +1,7 @@
 # News_NLP
 
+## Section 1: To NewsApp.ipynb demonstrates how to use `news-nlp` pacakge
+
 1. download this dataset and save it under`./News_NLP/data`
 
 `https://drive.google.com/file/d/1oAxSyq1T9ZEpaoeBzzfzsXelYph-7IX6/view?usp=share_link`
@@ -22,5 +24,4 @@ install cliff docker image to geoloate text data in terms of lan, lon, popualtio
    
 4. install News_NLP `pip install news-nlp`
 
-5. `NewsApp.ipynb` demonstrates how to use `news-nlp` pacakge
 
