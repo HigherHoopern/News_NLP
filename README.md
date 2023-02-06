@@ -1,5 +1,9 @@
 # News_NLP
 
+download this dataset and save it under`./News_NLP/data`
+
+`https://drive.google.com/file/d/1oAxSyq1T9ZEpaoeBzzfzsXelYph-7IX6/view?usp=share_link`
+
 Suggect to run it in conda virtual environment named news_nlp
 `conda create -n news_nlp python=3.10 -y`
 `conda activate news_nlp`
