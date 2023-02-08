@@ -57,3 +57,5 @@ where `cliff` is the name of container
 13. Excute `pyhton main.py`
 14. Additonally, copy file from  container to host on the terminal of host
     `sudo docker cp nlp:/NewsApp/News_NLP/data/new_data.csv /host/path/target`
+
+    lasted updated on Feb 8, 2023
