@@ -37,7 +37,7 @@ where `cliff` is the name of container
 
 (no need to config development environment)
 
-1. https://hub.docker.com/repository/docker/zhenxianlu/news-nlp-amd64/general
+1. `https://hub.docker.com/repository/docker/zhenxianlu/news-nlp-amd64/general`
 2. download docker image `docker pull zhenxianlu/news-nlp-amd64:latest`
 3. check local images `docker images`
 4. start this image `sudo docker run -itd --name news-nlp zhenxianlu/news-nlp-amd64:latest  /bin/bash` where `news-nlp` is to name the contianer
@@ -51,7 +51,7 @@ where `cliff` is the name of container
    `sudo docker network inspect my-net`
    copy the IP of container `cliff` for future use, it should something like that `172.**.*.*`
 9. Enter container `sudo docker container attach new-nlp`
-10. Enter foler  `cd News_NLP/`
+10. Enter folder  `cd News_NLP/`
 11. Open `geolocator.py` by `vim` and amend the line `my_cliff = Cliff('http://0.0.0.0:8080')` as `my_cliff = Cliff('http://172.**.*.*:8080')`
 12. Back to parent folder `cd ..`
 13. Excute `pyhton main.py`
