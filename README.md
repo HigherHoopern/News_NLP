@@ -1,16 +1,17 @@
-# Geopolitical Risk Project: News NLP
+# Global Geopolitical Risk Project: News NLP
 
 Notebook NewsApp demonstrate the usage of Python package `pip install news-nlp`
 
 https://pypi.org/project/news-nlp/
 
 This project aims to measure country-level Geopolitical Risk (GPR) based on news data. This risk index consists of seven predefined components, including Conflict, Terror Thteat, Corruption, Environment, Social, Governance (ESG) and foreign policy. This project covers:
+
 1. identifying search terms using NLP TF-IDF method;
-2. an unsupervised clustering model (K-means) to categorise search terms into five groups. 
-3. an NLP deep learning model to classify news articles into the predefined topics. 
-4. an hierarchy statistical model to infer news event location at country level and then 
-5. an geolocator in terms of longitude, latitude, and population 
-6. a supervised sentiment classifier to categorize GPR news articles into three classes, positive, neutral, and negative. 
+2. an unsupervised clustering model (K-means) to categorise search terms into five groups.
+3. an NLP deep learning model to classify news articles into the predefined topics.
+4. an hierarchy statistical model to infer news event location at country level and then
+5. an geolocator in terms of longitude, latitude, and population
+6. a supervised sentiment classifier to categorize GPR news articles into three classes, positive, neutral, and negative.
 
 ## Section 1:   Usage of `news-nlp` pacakge
 
