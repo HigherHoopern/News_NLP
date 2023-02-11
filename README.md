@@ -15,10 +15,7 @@ This project aims to measure country-level Geopolitical Risk (GPR) based on news
 
 ## Section 1:   Usage of `news-nlp` pacakge
 
-1. download this dataset and save it under `./News_NLP/data`
-
-`https://drive.google.com/file/d/1oAxSyq1T9ZEpaoeBzzfzsXelYph-7IX6/view?usp=share_link`
-
+1. download sample news dataset from ` data` folder 
 2. Suggect to run it in conda virtual environment named news_nlp
 
    `conda create -n news_nlp python=3.10 -y`
@@ -27,13 +24,6 @@ This project aims to measure country-level Geopolitical Risk (GPR) based on news
 
 3. install dependcies
 
-`pip install scikit-learn`
-
-`pip install mediacloud-cliff`
-
-`pip install ipywidgets`
-
-install scaCy en_core_web_lg
 `python -m spacy download en_core_web_lg`
 
 install cliff docker image to geoloate text data in terms of lan, lon, popualtion, location name, location type etc
