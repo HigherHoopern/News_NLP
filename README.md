@@ -7,8 +7,8 @@ https://pypi.org/project/news-nlp/
 This project aims to measure country-level Geopolitical Risk (GPR) based on news data. This risk index consists of seven predefined components, including Conflict, Terror Threat, Corruption, Environment, Social, Governance (ESG) and foreign policy. This project covers:
 
 1. identifying search terms (key words and biagrams) using NLP TF-IDF method and word embedding model
-2. an unsupervised clustering model (K-means) to categorise search terms into five groups.;
-3. an NLP deep learning model to classify news articles into the predefined topics;;;;
+2. an unsupervised clustering model (K-means) to categorise search terms into five groups
+3. an NLP deep learning model to classify news articles into the predefined topics;
 4. an hierarchy statistical model to infer news event location at country level and
 5. an multiple geolocator in terms of longitude, latitude, and population
 6. a supervised sentiment classifier to categorize GPR news articles into three classes.
