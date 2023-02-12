@@ -53,7 +53,7 @@ where `cliff` is the name of container
 8. check the IPs of the contianers connected to `my-net`
    `sudo docker network inspect my-net`
    copy the IP of container `cliff` for future use, it should something like that `172.**.*.*`
-9. Enter container `sudo docker container attach new-nlp`
+9. Enter container `sudo docker container attach news-nlp`
 10. Enter folder  `cd News_NLP/`
 11. Open `geolocator.py` by `vim` and amend the line `my_cliff = Cliff('http://0.0.0.0:8080')` as `my_cliff = Cliff('http://172.**.*.*:8080')`
 12. Back to parent folder `cd ..`
