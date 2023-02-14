@@ -29,10 +29,6 @@ This project `(GPR)` aims to measure country-level Geopolitical Risk (GPR) based
     - [GPR\_index.png](data/GPR_index.png)
     - [PolRisk\_data.csv](data/PolRisk_data.csv)
     - [SampleNews.csv](data/SampleNews.csv)
-    - [filename.txt](data/filename.txt)
-  - __image__
-
-    - __README__
   - __notebooks__
 
     - [NewsAPP.ipynb](notebooks/NewsAPP.ipynb)

@@ -1,3 +1,0 @@
-download this dataset and save it under./News_NLP/data
-
-https://drive.google.com/file/d/1oAxSyq1T9ZEpaoeBzzfzsXelYph-7IX6/view?usp=share_link
