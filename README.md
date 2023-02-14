@@ -1,5 +1,32 @@
 # Global Geopolitical Risk Project: News NLP
 
+├── README.md
+├── Utilities
+│   ├── ClassificationReport.py
+│   ├── __init__.py
+│   ├── binary_roc_curve.py
+│   ├── ff_confusion_matrix.py
+│   ├── multiclass_roc.py
+│   ├── num_news_source.py
+│   ├── num_of_words.py
+│   └── similarity.py
+├── data
+│   ├── GPRI_barchart.png
+│   ├── GPR_index.png
+│   ├── PolRisk_data.csv
+│   ├── SampleNews.csv
+│   └── filename.txt
+├── image
+│   └── README
+└── notebooks
+    ├── NewsAPP.ipynb (show the usage of `news-nlp` pacakge)
+    ├── News_Analysis_V5.ipynb (sentiment analysis)
+    ├── News_Classification_Implement_model.ipynb (implement pretrained model))
+    ├── News_Classification_in_DL.ipynb (binary news classification))
+    ├── Terror_KW_Bigram_Analysis.ipynb (Identify search terms for terror threat news topic)
+    ├── Unified_News_Classification_V2.ipynb (multiple news classifier))
+    └── readme.txt
+
 The notebook `NewsApp.ipynb` is to demonstrate the usage of ` news-nlp` Python package.
 
 `pip install news-nlp`
