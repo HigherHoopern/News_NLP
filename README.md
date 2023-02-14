@@ -1,3 +1,14 @@
+# Global Geopolitical Risk Index Project
+
+This project `(GPR)` aims to measure country-level Geopolitical Risk (GPR) based on news data. This risk index consists of seven predefined components, including Conflict, Terror Threat, Corruption, Environment, Social, Governance (ESG) and foreign policy. This project covers:
+
+1. identifying search terms (key words and biagrams) using NLP TF-IDF method and word embedding model
+2. an unsupervised clustering model (K-means) to categorise search terms into five groups
+3. an NLP deep learning model to classify news articles into the predefined topics;
+4. an hierarchy statistical model to infer news event location at country level and
+5. an multiple geolocator in terms of longitude, latitude, and population
+6. a supervised sentiment classifier to categorize GPR news articles into three classes.
+
 - __News\_NLP__
   - [README.md](README.md)
   - __Utilities__
@@ -30,22 +41,12 @@
     - [Unified\_News\_Classification\_V2.ipynb](notebooks/Unified_News_Classification_V2.ipynb)
     - [readme.txt](notebooks/readme.txt)
 
-# The notebook `NewsApp.ipynb` is to demonstrate the usage of ` news-nlp` Python package.
-
-`pip install news-nlp`
-
-https://pypi.org/project/news-nlp/
-
-This project `(GPR)` aims to measure country-level Geopolitical Risk (GPR) based on news data. This risk index consists of seven predefined components, including Conflict, Terror Threat, Corruption, Environment, Social, Governance (ESG) and foreign policy. This project covers:
-
-1. identifying search terms (key words and biagrams) using NLP TF-IDF method and word embedding model
-2. an unsupervised clustering model (K-means) to categorise search terms into five groups
-3. an NLP deep learning model to classify news articles into the predefined topics;
-4. an hierarchy statistical model to infer news event location at country level and
-5. an multiple geolocator in terms of longitude, latitude, and population
-6. a supervised sentiment classifier to categorize GPR news articles into three classes.
 
 ## Section 1:   Usage of `news-nlp` pacakge
+
+The notebook `NewsApp.ipynb` is to demonstrate the usage of ` news-nlp` Python package.
+
+`pip install news-nlp`https://pypi.org/project/news-nlp/
 
 1. download sample news dataset from ` data` folder
 2. Suggect to run it in conda virtual environment named news_nlp
