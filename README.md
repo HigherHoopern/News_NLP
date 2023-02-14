@@ -30,7 +30,7 @@
     - [Unified\_News\_Classification\_V2.ipynb](notebooks/Unified_News_Classification_V2.ipynb)
     - [readme.txt](notebooks/readme.txt)
 
-The notebook `NewsApp.ipynb` is to demonstrate the usage of ` news-nlp` Python package.
+# The notebook `NewsApp.ipynb` is to demonstrate the usage of ` news-nlp` Python package.
 
 `pip install news-nlp`
 
@@ -68,7 +68,7 @@ where `cliff` is the name of container
 
 4. install News_NLP `pip install news-nlp`
 
-# Section 2: Docker Image
+## Section 2: Docker Image
 
 (no need to config development environment)
 
