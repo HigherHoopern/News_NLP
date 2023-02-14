@@ -1,31 +1,34 @@
-# Global Geopolitical Risk Project: News NLP
+- __News\_NLP__
+  - [README.md](README.md)
+  - __Utilities__
 
-├── README.md
-├── Utilities
-│   ├── ClassificationReport.py
-│   ├── __init__.py
-│   ├── binary_roc_curve.py
-│   ├── ff_confusion_matrix.py
-│   ├── multiclass_roc.py
-│   ├── num_news_source.py
-│   ├── num_of_words.py
-│   └── similarity.py
-├── data
-│   ├── GPRI_barchart.png
-│   ├── GPR_index.png
-│   ├── PolRisk_data.csv
-│   ├── SampleNews.csv
-│   └── filename.txt
-├── image
-│   └── README
-└── notebooks
-    ├── NewsAPP.ipynb (show the usage of `news-nlp` pacakge)
-    ├── News_Analysis_V5.ipynb (sentiment analysis)
-    ├── News_Classification_Implement_model.ipynb (implement pretrained model))
-    ├── News_Classification_in_DL.ipynb (binary news classification))
-    ├── Terror_KW_Bigram_Analysis.ipynb (Identify search terms for terror threat news topic)
-    ├── Unified_News_Classification_V2.ipynb (multiple news classifier))
-    └── readme.txt
+    - [ClassificationReport.py](Utilities/ClassificationReport.py)
+    - [\_\_init\_\_.py](Utilities/__init__.py)
+    - [binary\_roc\_curve.py](Utilities/binary_roc_curve.py)
+    - [ff\_confusion\_matrix.py](Utilities/ff_confusion_matrix.py)
+    - [multiclass\_roc.py](Utilities/multiclass_roc.py)
+    - [num\_news\_source.py](Utilities/num_news_source.py)
+    - [num\_of\_words.py](Utilities/num_of_words.py)
+    - [similarity.py](Utilities/similarity.py)
+  - __data__
+
+    - [GPRI\_barchart.png](data/GPRI_barchart.png)
+    - [GPR\_index.png](data/GPR_index.png)
+    - [PolRisk\_data.csv](data/PolRisk_data.csv)
+    - [SampleNews.csv](data/SampleNews.csv)
+    - [filename.txt](data/filename.txt)
+  - __image__
+
+    - __README__
+  - __notebooks__
+
+    - [NewsAPP.ipynb](notebooks/NewsAPP.ipynb)
+    - [News\_Analysis\_V5.ipynb](notebooks/News_Analysis_V5.ipynb)
+    - [News\_Classification\_Implement\_model.ipynb](notebooks/News_Classification_Implement_model.ipynb)
+    - [News\_Classification\_in\_DL.ipynb](notebooks/News_Classification_in_DL.ipynb)
+    - [Terror\_KW\_Bigram\_Analysis.ipynb](notebooks/Terror_KW_Bigram_Analysis.ipynb)
+    - [Unified\_News\_Classification\_V2.ipynb](notebooks/Unified_News_Classification_V2.ipynb)
+    - [readme.txt](notebooks/readme.txt)
 
 The notebook `NewsApp.ipynb` is to demonstrate the usage of ` news-nlp` Python package.
 
