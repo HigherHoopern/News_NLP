@@ -1,6 +1,8 @@
 # Global Geopolitical Risk Index Project
 
-(`pip install news-nlp`)   https://pypi.org/project/news-nlp/
+This  Pyhon package is developed for demonstration purpose
+
+ ( `pip install news-nlp`)   https://pypi.org/project/news-nlp/
 
 This project `(GPR)` aims to measure country-level Geopolitical Risk  based on news data. This risk index consists of seven predefined components, including Conflict, Terror Threat, Corruption, Environment, Social, Governance (ESG) and foreign policy. This project covers:
 
