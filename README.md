@@ -15,6 +15,13 @@ This project `(GPR)` aims to measure country-level Geopolitical Risk  based on n
 7. a supervised sentiment classifier to categorize GPR news articles into three classes
 8. GPR Index based on news articles, country type, population, news type and sentiment values and fatality.
 
+![1677440552304](image/README/1677440552304.png)
+
+![1677440603488](image/README/1677440603488.png)
+
+![1677440634894](image/README/1677440634894.png)
+
+![1677440675092](image/README/1677440675092.png)
 
 - __News\_NLP__
   - [README.md](README.md)
