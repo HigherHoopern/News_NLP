@@ -23,34 +23,6 @@ This project `(GPR)` aims to measure country-level Geopolitical Risk  based on n
 
 ![1677440675092](image/README/1677440675092.png)
 
-- __News\_NLP__
-  - [README.md](README.md)
-  - __Utilities__
-
-    - [ClassificationReport.py](Utilities/ClassificationReport.py)
-    - [\_\_init\_\_.py](Utilities/__init__.py)
-    - [binary\_roc\_curve.py](Utilities/binary_roc_curve.py)
-    - [ff\_confusion\_matrix.py](Utilities/ff_confusion_matrix.py)
-    - [multiclass\_roc.py](Utilities/multiclass_roc.py)
-    - [num\_news\_source.py](Utilities/num_news_source.py)
-    - [num\_of\_words.py](Utilities/num_of_words.py)
-    - [similarity.py](Utilities/similarity.py)
-  - __data__
-
-    - [GPRI\_barchart.png](data/GPRI_barchart.png)
-    - [GPR\_index.png](data/GPR_index.png)
-    - [PolRisk\_data.csv](data/PolRisk_data.csv)
-    - [SampleNews.csv](data/SampleNews.csv)
-  - __notebooks__
-
-    - [NewsAPP.ipynb](notebooks/NewsAPP.ipynb)
-    - [News\_Analysis\_V5.ipynb](notebooks/News_Analysis_V5.ipynb)
-    - [News\_Classification\_Implement\_model.ipynb](notebooks/News_Classification_Implement_model.ipynb)
-    - [News\_Classification\_in\_DL.ipynb](notebooks/News_Classification_in_DL.ipynb)
-    - [Terror\_KW\_Bigram\_Analysis.ipynb](notebooks/Terror_KW_Bigram_Analysis.ipynb)
-    - [Unified\_News\_Classification\_V2.ipynb](notebooks/Unified_News_Classification_V2.ipynb)
-    - [readme.txt](notebooks/readme.txt)
-
 ## Section 1:   Usage of `news-nlp` pacakge
 
 The notebook `NewsApp.ipynb` is to demonstrate the usage of ` news-nlp` Python package.
