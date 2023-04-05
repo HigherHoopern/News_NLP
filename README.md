@@ -6,7 +6,7 @@ This  Pyhon package is developed for demonstration purpose
 
 This project `(GPR)` aims to measure country-level Geopolitical Risk  based on news data. This risk index consists of seven predefined components, including Conflict, Terror Threat, Corruption, Environment, Social, Governance (ESG) and foreign policy. This project covers:
 
-1. identifying search terms (key words and biagrams) using NLP TF-IDF method
+1. identifying search terms (key words and bigrams) using NLP TF-IDF method
 2. Identifying synonyms of seach terms with pretrained word embedding model
 3. an unsupervised clustering model (K-means) to categorise search terms into five groups
 4. an NLP deep learning model to classify news articles into seven predefined topics
